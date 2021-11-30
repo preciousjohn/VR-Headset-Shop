@@ -20,7 +20,7 @@
 
     /*Typography*/
     --body-font: "Poppins", sans-serif;
-    --biggest-font: 5rem;
+    --biggest-font: 4rem;
     --bigger-font: 3.5rem;
     --big-font: 2.5rem;
     --h2-font: 1.25rem;
@@ -215,7 +215,7 @@ button{
 .home-img{
     width: 250px;
     position: absolute;
-    top: -16rem;
+    top: 26rem;
     right: 1.5rem;
 }
 .home-info{
@@ -240,7 +240,7 @@ button{
     margin-bottom: var(--mb-2-5);
 }
 .home-title-desc{
-    margin-bottom: var(--mb-2-5);
+    margin-bottom: 1rem;
     line-height: var(--text-line-height);
 }
 .home-price{
@@ -256,6 +256,7 @@ button{
     padding: 1rem 1.25rem;
     border-radius: .5rem;
     transition: .3s;
+    margin-top: 1em;
 }
 .button:hover{
     background-color: var(--black-color);
@@ -296,14 +297,23 @@ button{
     right: -4rem;
   }
 
+  .review-wrapper{
+      position: relative;
+      padding-left: 10rem;
+  }
+
   .review-data{
-      width: 250px;
+      width: 230px;
       position: absolute;
-      left: -7rem;
+      
   }
   .review-desc{
       margin-bottom: var(--mb-1-5);
       line-height: var(--text-line-height);
+  }
+  .review-img{
+      width: 500px;
+      right: -31rem;
   }
 
   .discount-wrapper{
@@ -506,7 +516,7 @@ button{
           padding-top: 2rem;
       }
       .home-img{
-          top: -7rem;
+          top: 2rem;
           left: 0;
       }
       .specs-img{
@@ -560,7 +570,7 @@ button{
           grid-template-columns: repeat(2, 1fr);
       }
       .home-img{
-          top: -9rem;
+          top: -4rem;
           left: 4rem;
       }
       .home-info{
@@ -606,12 +616,13 @@ button{
           margin-right: auto;
       }
       .home-img{
-          width: 300px;
-          top: -15rem;
+          width: 400px;
+          top: -5rem;
       }
       .home-title{
           top: -5rem;
           left: 3.5rem;
+          font-size: var(--biggest-font);
       }
       .home-desc{
           padding-right: 5rem;
